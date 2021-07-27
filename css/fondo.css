@@ -1,0 +1,106 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+@keyframes fondoAnimado {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+    
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fondoAnimado {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+    
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fondoAnimado {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+    
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#fondo1 {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/nayimou.png");
+    background-repeat: repeat;
+    background-size: contain;
+    position: absolute;
+    animation: fondoAnimado 20s linear 0s infinite;
+    -moz-animation: fondoAnimado 20s linear 0s infinite;
+    -webkit-animation: fondoAnimado 20s linear 0s infinite;
+}
+
+#fondo2 {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/ryoga.png");
+    background-repeat: repeat;
+    background-size: contain;
+    position: absolute;
+    animation: fondoAnimado 20s linear 5s infinite;
+    -moz-animation: fondoAnimado 20s linear 5s infinite;
+    -webkit-animation: fondoAnimado 20s linear 5s infinite;
+}
+
+#fondo3 {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/jean.png");
+    background-repeat: repeat;
+    background-size: contain;
+    position: absolute;
+    animation: fondoAnimado 20s linear 10s infinite;
+    -webkit-animation: fondoAnimado 20s linear 10s infinite;
+    -moz-animation: fondoAnimado 20s linear 10s infinite;
+}
+
+#fondo4 {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    animation: fondoAnimado 20s linear 15s infinite;
+    -webkit-animation: fondoAnimado 20s linear 15s infinite;
+    -moz-animation: fondoAnimado 20s linear 15s infinite;
+}
