@@ -1,0 +1,27 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+a {
+    color: antiquewhite;
+}
+a:hover{
+    color: white;
+}
+
+#cabezera {
+    background-color: blue;
+    width: 1366px;
+    height: 80px;
+}
+
+#letra1 {
+    font-size: 28px;
+}
+
+#links {
+    background-color: rgb(53, 8, 157);
+    width: 1366px;
+    height: 40px;
+}
