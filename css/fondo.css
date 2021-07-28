@@ -1,6 +1,7 @@
 * {
     margin: 0%;
-    padding: 0;
+    padding: 0%;
+    text-decoration: none;
 }
 
 @keyframes fondoAnimado {
@@ -103,4 +104,28 @@
     animation: fondoAnimado 20s linear 15s infinite;
     -webkit-animation: fondoAnimado 20s linear 15s infinite;
     -moz-animation: fondoAnimado 20s linear 15s infinite;
+}
+
+#cabezera{
+    background-color: blue;
+    width: 1350px;
+    height: 80px;
+}
+
+#links{
+    background-color: rgb(53, 8, 157);
+    width: 1350px;
+    height: 40px;
+}
+
+#letra1{
+    font-size: 28px;
+    font-family: cursive;
+}
+
+a {
+    color: antiquewhite;
+}
+a:hover{
+    color: white;
 }
